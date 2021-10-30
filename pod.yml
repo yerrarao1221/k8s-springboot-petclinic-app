@@ -7,5 +7,5 @@ metadata:
     env: prod
 spec:
   containers:
-   - name: springboot-app
-     image: govanin/spring-boot-app
+   - name: springboot-petclinic-app
+     image: itpurush/springboot-petclinic-app:1.0
