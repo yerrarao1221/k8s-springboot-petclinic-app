@@ -14,8 +14,8 @@ spec:
           env: prod
       spec:
          containers:
-           - name: springboot-image
-             image: govanin/spring-boot-app
+           - name: springboot-petclinic-image
+             image: itpurush/springboot-petclinic-app:1.0
   replicas: 2
   selector:
      matchLabels:
